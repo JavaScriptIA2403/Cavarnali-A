@@ -185,3 +185,10 @@ export function generateId(time) {
 4. Как можно добавить новый элемент в DOM-дерево с помощью JavaScript?
     **Ответ:**
     - Чтобы добавить новый элемент в DOM-дерево с помощью JavaScript, сначала создают элемент с помощью команды `document.createElement`, затем наполняют его содержимым, например добавляют текст или классы, и после этого вставляют его в нужное место на странице через методы, такие как `appendChild` или `append`. Например, можно создать новый блок `<div>`, задать ему текст, а затем добавить его внутрь существующего контейнера на странице.
+
+## Использованные источники
+- [MoodleUSM](https://moodle.usm.md/course/view.php?id=6455)
+- [JavaScript.ru](https://learn.javascript.ru)
+- [GitHub](https://github.com/MSU-Courses/javascript/blob/main/lab/lab_guidelines.md)
+- [ChatGPT](https://chatgpt.com/)
+- [DeepSeek](https://chat.deepseek.com/)
