@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.form input,
+.form select,
+.form button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex: 1 1 180px;
+}
+
+.form button {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #4f46e5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #007bff;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+.green {
+  background-color: #e6ffed; /* как по заданию */
+}
+
+.red {
+  background-color: #ffe6e6; /* как по заданию */
+}
+
+.delete-btn {
+  background-color: #e53935;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+.summary {
+  text-align: right;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.description-box {
+  padding: 15px;
+  background-color: #f9fafb;
+  border-left: 4px solid #007bff;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-style: italic;
+}
